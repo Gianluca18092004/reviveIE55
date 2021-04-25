@@ -1,11 +1,86 @@
-<!DOCTYPE html>
+<?xml version="1.0"?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>IEX - The best fix for Internet Explorer</title>
+    <!--[if lt IE 9]>
+    <script src="./IEX.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h1>Hola Mundo 2</h1>
+    <div class="main">
+        <header>
+            <img src="./logo.png" alt="">
+        </header>
+        <section class="page">
+            <article>
+                <a name="link1"></a>
+                <h1>What's is IEX?</h1>
+                <p>IEX is an improved version of ie9.js created by Dean Edwards. Add support for DOM2, addEventListener, placeHolder, inline-block and most important full PNG for IE6.
+                    AlphaImageloder is replaced by VML because it brought problems to the performance of the browser, as well as supporting bicubic images and background-repeat as background-position.</p>
+                <a name="link2"></a>
+                <h2>Benefits</h2>
+                <div class="benefits">
+                    <ul>
+                        <li>VML Fix for IE6- PNG</li>
+                        <li>Fix Hover on IE6-</li>
+                        <li>Focus and active on IE7-</li>
+                        <li>Box Model fix on IE5/IE6 Quirks</li>
+                        <li>inline-block support for IE7-</li>
+                        <li>querySelector support for IE7-</li>
+                        <li>addEventListener support for IE8-</li>
+                        <li>HTML5 tags support</li>
+                        <li>Opacity Support</li>
+                        <li>placeHover Support on input and textarea</li>
+                        <li>Save 85% of IE adapting codes</li>
+                        <li>Make IE little faster and stable</li>
+                    </ul>
+                </div>
+                <a name="link3"></a>
+                <h2>How to use</h2>
+                <h3>For developer version</h3>
+                <div class="code">
+                    <span><</span>!--[if lt IE 9]><br>
+                    <span><</span>script src="./IEX.js"><span><</span>/script>
+                    <br><span><</span>![endif]-->
+                </div>
+                <h3>For production version</h3>
+                <div class="code">
+                    <span><</span>!--[if lt IE 9]><br>
+                    <span><</span>script src="./IEX-min.js"><span><</span>/script>
+                    <br><span><</span>![endif]-->
+                </div>
+                <a name="link4"></a>
+                <h2>Browser Support</h2>
+                <ul class="browsers">
+                    <li style="background-image: url(./ie5.png);">Internet Explorer 5.5 (Service Pack 2)</li>
+                    <li style="background-image: url(./ie6.png);">Internet Explorer 6 (Quirks Mode)</li>
+                    <li style="background-image: url(./ie7.png);">Internet Explorer 7</li>
+                    <li style="background-image: url(./ie7.png);">Internet Explorer 8</li>
+                </ul>
+            </article>
+            <nav>
+                <ul>
+                    <li><a href="#link1">What's is IEX?</a></li>
+                    <li><a href="#link2">Benefits</a></li>
+                    <li><a href="#link3">How to use</a></li>
+                    <li><a href="#link4">Compatible Browsers</a></li>
+                </ul>
+                <a class="download" href="">Developer<br><span class="size">119KB</span></a>
+                <a class="download" href="">Production<br><span class="size">72KB</span></a>
+            </nav>
+        </section>
+        <footer>
+            © 2021 Gianluca18092004. All rights reserved.
+            <a href="http://reviveie55.ga/certificates.php">
+                <img src="./cert2.png" alt="">
+            </a>
+        </footer>
+    </div>
+    <script src="./fixes.js"></script>
 </body>
 </html>

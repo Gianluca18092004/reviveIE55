@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+h1 {font-size: 2em}
+
+h2 {font-size: 1.5em}
+
+h3 {font-size: 1.17em}
+
+h4 {font-size: 1em}
+
+h5 {font-size: .83em}
+
+h6 {font-size: .67em}
+
+a:active, a:focus {
+    outline:  none;
+    noFocusLine: expression(this.hideFocus=true);
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:11px;
+    background-image: url(./back1.png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-color: rgb(223,243,227);
+    padding:6px;
+    div.main {
+        width:760px;
+        margin:auto;
+        background-color: white;
+        header {
+            width:760px;
+            background-image: url(./back2.png);
+            height:120px;
+            overflow: hidden;
+            img {
+                width:200px;
+            }
+        }
+        section.page {
+            overflow: hidden;
+            width:760px;
+            article {
+                padding:4px;
+                float:left;
+                width:520px;
+                .benefits {
+                    margin:4px auto;
+                    background-color:#eee;
+                    border:1px solid #ccc;
+                    width:450px;
+                    padding:4px;
+                    ul {
+                        list-style:none;
+                        li {
+                            background-image: url(./bg_checkbox.gif);
+                            background-repeat: no-repeat;
+                            padding-left:16px;
+                            line-height:16px;
+                            margin:2px;
+                        }
+                    }
+                }
+                .code {
+                    margin:4px auto;
+                    background-color:#eee;
+                    border:1px solid #ccc;
+                    width:450px;
+                    padding:4px;
+                    font-family:'Courier New', Courier, monospace;
+                    font-size:12px;
+                }
+                ul.browsers {
+                    list-style: none;
+                    li {
+                        padding-left:40px;
+                        background-repeat: no-repeat;
+                        line-height: 32px;
+                        font-size:12px;
+                    }
+                }
+            }
+            nav {
+                float:right;
+                overflow: hidden;
+                width:240px;
+                margin-bottom:-29999px;
+                padding-bottom:29999px;
+                background-color:gold;
+                ul {
+                    list-style: none;
+                    li {
+                        a {
+                            width:240px;
+                            padding:4px;
+                            color:#000;
+                            font-weight: bold;
+                            text-decoration: none;
+                            border-bottom:1px dashed #888;
+                            display:block;
+                            &:hover {
+                                background-color: goldenrod;
+                            }
+                        }
+                    }
+                }
+                .download {
+                    display:block;
+                    width:150px;
+                    height:54px;
+                    background-image: url(./dl0.png);
+                    padding-left:40px;
+                    font-size:16px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-weight: bold;
+                    color:#fff;
+                    text-decoration: none;
+                    padding-top:6px;
+                    margin:6px 45px;
+                    span.size {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+        footer {
+            width:760px;
+            background-color:goldenrod;
+            color:#fff;
+            clear:both;
+            line-height:56px;
+            padding:4px;
+            position: relative;
+            img {
+                height:56px;
+                border:0px;
+                position: absolute;
+                top:4px;
+                right:4px;
+            }
+        }
+    }
+}
